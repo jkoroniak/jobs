@@ -10,7 +10,7 @@ In the file `email_validator.rb`, please complete the function `validate(email)`
 
 In the file `arranger.rb`, please complete the function `arrange_string(str)`, which takes a string containing a sentence (_n_ number of whitespace-separated word token) and returns that setence rearranged in non-descending order of word length.
 
-For example, `arrange_string("Be the change you want to see in the world") -> "Be in to see the the you want change world"`
+For example, `arrange_string("Be the change you want to see in the world") -> "Be in to see the the you want world change"`
 
 ## Question 3
 
