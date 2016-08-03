@@ -24,7 +24,7 @@ class BusinessReward < ActiveRecord::Base
 
   #For a given business reward, administrator want to take away partial or full amount.
   def deduct(amout)
-    balance.deduct_from_balance(amount)
+    business.deduct_from_balance(amount)
   end
 
   # Business#add_message_to_queue pushes a string to a business' notification queue. It will return true if the message is successfully pushed to the queue, and false otherwise.
