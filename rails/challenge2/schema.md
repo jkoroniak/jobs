@@ -20,4 +20,4 @@
 | id    | int  |       |       |
 | business_id | int | y | foreign_key |
 | amount | int | n     | reward amount in coins |
-
+| reward_type | string | n | |
